@@ -72,4 +72,6 @@ class NodePool {
   }
 }
 
-module.exports = { NodePool, BackendNode };
+
+const nodePool = new NodePool();
+module.exports = { NodePool, BackendNode, nodePool };
